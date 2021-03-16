@@ -17,7 +17,7 @@ streamEscritura.write(contenido,res =>{
 /******************************************
             read stream
 *******************************************/
-const streamRead = fs.createReadStream("./archivos/archivod.txt",{encoding:"utf-8"});
+const streamRead = fs.createReadStream("../archivos/archivod.txt",{encoding:"utf-8"});
 
 streamRead.on("open",()=>{
     console.log("abriendo archivo");
